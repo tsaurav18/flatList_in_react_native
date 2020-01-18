@@ -38,6 +38,7 @@ export default class BookItem extends Component {
                 <Text style= {styles.author}>{this.props.author}</Text>
                 <Text style= {styles.title}>{this.props.title}</Text>
                 </View>
+            
             </View>
         );
     }
